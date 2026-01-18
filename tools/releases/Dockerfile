@@ -1,4 +1,4 @@
-FROM debian:12.0
+FROM debian:12.13
 
 # Install some useful tools.
 RUN apt-get update -y && \
